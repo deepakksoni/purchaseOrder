@@ -1,0 +1,28 @@
+<div class="container" >
+  <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>{{ lineItems.select }}</th>
+          <th>{{ lineItems.material }}</th>
+          <th>{{ lineItems.materialDescription }}</th>
+          <th>{{ lineItems.plant }}</th>
+          <th>{{ lineItems.storage }}</th>
+          <th>{{ lineItems.unitPrice }}</th>
+          <th>{{ lineItems.quantity }}</th>
+          <th>{{ lineItems.totalPrice }}</th>
+        </tr>
+      </thead>
+    <tbody>
+        <tr *ngFor="let material of poData.materials" >
+          <td></td>
+          <td>{{material.material}}</td>
+          <td>{{material.matDescription}}</td>
+          <td>{{material.plant}}</td>
+          <td>{{material.storage}}</td>
+          <td>{{material.price}}</td>
+          <td>{{material.quantity}}</td>
+          <td>{{material.totalPrice}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>

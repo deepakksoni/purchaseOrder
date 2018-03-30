@@ -1,0 +1,13 @@
+<div class="panel panel-default"> 
+  <form #form="ngForm" (ngSubmit)="onSaveDataInDB(poData)" class="well" > 
+    <div class="panel-body">
+      <div>
+        <req-header [headerDetails] = "headerDetails" [poData]="poData" ></req-header> 
+        <req-items [lineItems] = "lineItems" [poData]="poData"  ></req-items>
+      </div> 
+    </div>
+    <div class="panel-footer">
+      <button type="submit" class="btn btn-info">Save data</button>
+    </div>
+  </form>
+</div>

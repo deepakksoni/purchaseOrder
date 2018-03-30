@@ -1,0 +1,530 @@
+.RadComboBox,
+.RadComboBox_WebBlue {
+    background: #fff !important;
+    border: 1px solid #d0d0ce;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    width: auto;
+    margin-bottom: 10px !important;
+    font-size: 14px !important;
+}
+
+    .RadComboBox .rcbInputCell,
+    .RadComboBox_WebBlue .rcbInputCell,
+    .RadComboBox .rcbArrowCell,
+    .RadComboBox_WebBlue .rcbArrowCell {
+        background-image: none !important;
+        height: 28px;
+        line-height: 28px;
+        border: 0px !important;
+    }
+
+        .RadComboBox .rcbInputCell input,
+        .RadComboBox_WebBlue .rcbInputCell input,
+        .RadComboBox .rcbArrowCell input,
+        .RadComboBox_WebBlue .rcbArrowCell input {
+            color: #000;
+            font-size: 14px !important;
+            font-family: 'open-sans';
+        }
+
+        .RadComboBox .rcbInputCell input,
+        .RadComboBox_WebBlue .rcbInputCell input {
+            padding: 10px 10px 10px 10px !important;
+        }
+
+        .RadComboBox .rcbArrowCell a,
+        .RadComboBox_WebBlue .rcbArrowCell a {
+            background-image: url(./images/caret.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            height: 100% !important;
+        }
+
+            .RadComboBox .rcbArrowCell a:hover,
+            .RadComboBox_WebBlue .rcbArrowCell a:hover {
+                background-color: #fff;
+            }
+
+            .RadComboBox .rcbArrowCell a:after,
+            .RadComboBox_WebBlue .rcbArrowCell a:after {
+                content: "" !important;
+            }
+
+        .RadComboBox .rcbArrowCell.rcbArrowCellHidden a,
+        .RadComboBox_WebBlue .rcbArrowCell.rcbArrowCellHidden a {
+            background-image: none;
+        }
+
+.RadComboBoxDropDown {
+    border-color: #cad0d8 !important;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+    .RadComboBoxDropDown .rcbList .rcbItem,
+    .RadComboBoxDropDown .rcbList .rcbHovered,
+    .RadComboBoxDropDown .rcbList .rcbDisabled,
+    .RadComboBoxDropDown .rcbList .rcbLoading,
+    .RadComboBoxDropDown .rcbList .rcbCheckAllItems,
+    .RadComboBoxDropDown .rcbList .rcbCheckAllItemsHovered {
+        margin: 0px;
+    }
+
+    .RadComboBoxDropDown .rcbList .rcbItem {
+        padding: 10px 10px 10px 10px !important;
+        font-size: 14px !important;
+    }
+
+    .RadComboBoxDropDown .rcbList .rcbHovered {
+        color: #ffffff;
+        background: #8ebc00;
+        padding: 10px 10px 10px 10px !important;
+        font-size: 14px !important;
+    }
+/***********Rad Input controls*/
+.RadInput {
+    display: inline-block;
+}
+
+    .RadInput .RadInputMgr {
+        font-family: 'open-sans';
+        font-size: 14px;
+        font-weight: normal;
+        color: #000;
+        padding: 10px !important;
+        height: auto !important;
+        background: #fff !important;
+        border: 1px solid #d0d0ce;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+    }
+
+
+/****RadGrid*/
+.RadGrid .rgHeaderWrapper {
+    background: none;
+    border-bottom: 0px;
+}
+
+    .RadGrid .rgHeaderWrapper .rgHeaderDiv {
+        background: none;
+        margin-right: 0px !important;
+        border-right: 0px !important;
+        overflow: visible !important;
+    }
+
+        .RadGrid .rgHeaderWrapper .rgHeaderDiv table {
+            width: 100% !important;
+            overflow: visible !important;
+        }
+
+            .RadGrid .rgHeaderWrapper .rgHeaderDiv table th {
+                overflow: visible !important;
+            }
+
+.RadUploadProgressArea {
+    margin-bottom: 10px;
+    width: 100% !important;
+}
+
+    .RadUploadProgressArea .ruProgress {
+        border: 1px solid #D0D0CE;
+        border-radius: 3px;
+        box-shadow: none;
+    }
+
+        .RadUploadProgressArea .ruProgress .ruProgressHeader {
+            background: #f2f4f8;
+            line-height: 16px;
+            color: #454545;
+            font-weight: bold;
+            font-size: 13px;
+            min-height: 40px;
+            border-bottom: 0px;
+        }
+
+.RadGrid,
+.RadGrid_Web20 {
+    border: 1px solid #d0d0ce;
+}
+
+.RadGrid .rgDataDiv{
+    background-color:#fff;
+}
+    /* Tables */
+    .RadGrid.rgMasterTable tr th,
+    .rgMasterTable tr th,
+    .RadGrid.rgMasterTable tr th.rgHeader,
+    .rgMasterTable tr th.rgHeader {
+        background: #f2f2f2;
+        background-image: none;
+        border: 0px;
+        color: #000;
+        padding: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        word-break: break-word;
+        white-space: normal;
+    }
+
+        .RadGrid.rgMasterTable tr th.rgGroupCol,
+        .rgMasterTable tr th.rgGroupCol,
+        .RadGrid.rgMasterTable tr th.rgHeader.rgGroupCol,
+        .rgMasterTable tr th.rgHeader.rgGroupCol {
+            background: #dce1ec;
+        }
+
+        .RadGrid.rgMasterTable tr th a,
+        .rgMasterTable tr th a,
+        .RadGrid.rgMasterTable tr th.rgHeader a,
+        .rgMasterTable tr th.rgHeader a {
+            color: #222;
+            font-weight: bold !important;
+            cursor: pointer !important;
+        }
+
+    .RadGrid.rgMasterTable tr td,
+    .rgMasterTable tr td {
+        background-color: #FFF;
+        border: none;
+        border-width: 0px 0px 0px 0px;
+        padding: 12px 10px;
+        line-height: 20px;
+        font-size: 13px !important;
+        vertical-align: middle;
+        overflow: visible !important;
+    }
+
+        .RadGrid.rgMasterTable tr td a,
+        .rgMasterTable tr td a {
+            display: block;
+            color: #454545;
+            margin-top: 2px;
+            margin-left: 7px;
+        }
+
+            .RadGrid.rgMasterTable tr td a:hover,
+            .rgMasterTable tr td a:hover {
+                text-decoration: none;
+                background-color: transparent;
+            }
+
+            .RadGrid.rgMasterTable tr td a.rfdSkinnedButton,
+            .rgMasterTable tr td a.rfdSkinnedButton {
+                display: inline-block;
+                padding-right: 2px;
+            }
+
+                .RadGrid.rgMasterTable tr td a.rfdSkinnedButton input,
+                .rgMasterTable tr td a.rfdSkinnedButton input {
+                    padding-right: 8px;
+                }
+
+        .RadGrid.rgMasterTable tr td.rcbInputCell,
+        .rgMasterTable tr td.rcbInputCell {
+            padding: 0;
+            padding: 0;
+            padding-left: 5px;
+            padding-right: 4px;
+        }
+
+        .RadGrid.rgMasterTable tr td.rcbArrowCell,
+        .rgMasterTable tr td.rcbArrowCell {
+            padding: 0;
+        }
+
+            .RadGrid.rgMasterTable tr td.rcbArrowCell a,
+            .rgMasterTable tr td.rcbArrowCell a {
+                margin-left: 0;
+                margin-top: 0;
+            }
+
+        .RadGrid.rgMasterTable tr td .RadPicker table td,
+        .rgMasterTable tr td .RadPicker table td {
+            padding: 0px;
+        }
+
+        .RadGrid.rgMasterTable tr td span,
+        .rgMasterTable tr td span {
+            line-height: normal !important;
+            height: auto !important;
+        }
+
+        .RadGrid.rgMasterTable tr td input.GreenStaticButton,
+        .rgMasterTable tr td input.GreenStaticButton {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .RadGrid.rgMasterTable tr td.rcbInputCell,
+        .rgMasterTable tr td.rcbInputCell,
+        .RadGrid.rgMasterTable tr td.rcbArrowCell,
+        .rgMasterTable tr td.rcbArrowCell {
+            padding: 0;
+        }
+
+        .RadGrid.rgMasterTable tr td .RadInput .riTextBox,
+        .rgMasterTable tr td .RadInput .riTextBox {
+            margin-bottom: 0px !important;
+        }
+
+    .RadGrid.rgMasterTable tr.rgPager,
+    .rgMasterTable tr.rgPager {
+        background: #fff;
+    }
+
+        .RadGrid.rgMasterTable tr.rgPager .rgPagerCell,
+        .rgMasterTable tr.rgPager .rgPagerCell {
+            border: 0px;
+            display: inline-block;
+            padding: 0px;
+        }
+
+            .RadGrid.rgMasterTable tr.rgPager .rgPagerCell .rgWrap,
+            .rgMasterTable tr.rgPager .rgPagerCell .rgWrap {
+                line-height: 30px;
+                height: 50px;
+                float: left;
+                padding-top:5px;
+            }
+
+                .RadGrid.rgMasterTable tr.rgPager .rgPagerCell .rgWrap .rgPageFirst,
+                .rgMasterTable tr.rgPager .rgPagerCell .rgWrap .rgPageFirst {
+                    background: url(./images/caret-double-left.png) center center no-repeat;
+                    width: 15px;
+                    height: 30px;
+                }
+
+                .RadGrid.rgMasterTable tr.rgPager .rgPagerCell .rgWrap .rgPagePrev,
+                .rgMasterTable tr.rgPager .rgPagerCell .rgWrap .rgPagePrev {
+                    background: url(./images/caret-left.png) center center no-repeat;
+                    width: 15px;
+                    height: 30px;
+                }
+
+                .RadGrid.rgMasterTable tr.rgPager .rgPagerCell .rgWrap.rgNumPart a,
+                .rgMasterTable tr.rgPager .rgPagerCell .rgWrap.rgNumPart a {
+                    padding: 5px 5px;
+                    margin: 6px 3px;
+                    float: left;
+                    border: 1px solid transparent;
+                    border-radius: 3px;
+                }
+
+                    .RadGrid.rgMasterTable tr.rgPager .rgPagerCell .rgWrap.rgNumPart a span,
+                    .rgMasterTable tr.rgPager .rgPagerCell .rgWrap.rgNumPart a span {
+                        background: transparent;
+                        padding: 0px;
+                    }
+
+                    .RadGrid.rgMasterTable tr.rgPager .rgPagerCell .rgWrap.rgNumPart a:hover,
+                    .rgMasterTable tr.rgPager .rgPagerCell .rgWrap.rgNumPart a:hover {
+                        background: #fff;
+                        border: 1px solid #D0D0CE;
+                        border-radius: 3px;
+                    }
+
+                .RadGrid.rgMasterTable tr.rgPager .rgPagerCell .rgWrap .rgCurrentPage,
+                .rgMasterTable tr.rgPager .rgPagerCell .rgWrap .rgCurrentPage {
+                    background: #fff;
+                    border: 1px solid #D0D0CE;
+                    border-radius: 3px;
+                }
+
+                .RadGrid.rgMasterTable tr.rgPager .rgPagerCell .rgWrap .rgPageNext,
+                .rgMasterTable tr.rgPager .rgPagerCell .rgWrap .rgPageNext {
+                    background: url(./images/caret-right.png) center center no-repeat;
+                    width: 15px;
+                    height: 30px;
+                }
+
+                .RadGrid.rgMasterTable tr.rgPager .rgPagerCell .rgWrap .rgPageLast,
+                .rgMasterTable tr.rgPager .rgPagerCell .rgWrap .rgPageLast {
+                    background: url(./images/caret-double-right.png) center center no-repeat;
+                    width: 15px;
+                    height: 30px;
+                }
+
+                .RadGrid.rgMasterTable tr.rgPager .rgPagerCell .rgWrap .rgPagerLabel,
+                .rgMasterTable tr.rgPager .rgPagerCell .rgWrap .rgPagerLabel {
+                    margin: 7px 10px 0px 20px;
+                    display: inline-block;
+                }
+
+                .RadGrid.rgMasterTable tr.rgPager .rgPagerCell .rgWrap .RadComboBox,
+                .rgMasterTable tr.rgPager .rgPagerCell .rgWrap .RadComboBox {
+                    min-width: 100px;
+                }
+
+                    .RadGrid.rgMasterTable tr.rgPager .rgPagerCell .rgWrap .RadComboBox .rcbInputCell,
+                    .rgMasterTable tr.rgPager .rgPagerCell .rgWrap .RadComboBox .rcbInputCell {
+                        padding: 0px 5px !important;
+                    }
+
+                    .RadGrid.rgMasterTable tr.rgPager .rgPagerCell .rgWrap .RadComboBox .rcbArrowCell,
+                    .rgMasterTable tr.rgPager .rgPagerCell .rgWrap .RadComboBox .rcbArrowCell {
+                        padding: 0px 5px !important;
+                        padding-left: 0 !important;
+                    }
+
+                        .RadGrid.rgMasterTable tr.rgPager .rgPagerCell .rgWrap .RadComboBox .rcbArrowCell a,
+                        .rgMasterTable tr.rgPager .rgPagerCell .rgWrap .RadComboBox .rcbArrowCell a {
+                            margin-left: 0;
+                            margin-top: 0;
+                        }
+
+        .RadGrid.rgMasterTable tr.rgPager .RadComboBox_Web20 .rcbReadOnly .rcbInput,
+        .rgMasterTable tr.rgPager .RadComboBox_Web20 .rcbReadOnly .rcbInput {
+            color: #454545 !important;
+        }
+/*.RadGrid.rgMasterTable .rgGroupHeader,
+.rgMasterTable .rgGroupHeader {
+  background-color: #fafbfe;
+}
+.RadGrid.rgMasterTable .rgGroupHeader td,
+.rgMasterTable .rgGroupHeader td {
+  padding: 15px 0px;
+  color: #454545;
+}
+.RadGrid.rgMasterTable .rgGroupCol,
+.rgMasterTable .rgGroupCol {
+  background-color: #fafbfe;
+  border: 0px;
+}
+.RadGrid.rgMasterTable .rgGroupCol .rgExpand,
+.rgMasterTable .rgGroupCol .rgExpand {
+  background-image: url(./images/caret-expand.png);
+  background-position: center center;
+  background-repeat: none;
+}
+.RadGrid.rgMasterTable .rgGroupCol .rgCollapse,
+.rgMasterTable .rgGroupCol .rgCollapse {
+  background-image: url(./images/caret-collapse.png);
+  background-position: center center;
+  background-repeat: none;
+}*/
+
+
+/*******Radio Button List*/
+input[type="radio"] {
+    margin: 5px 5px 5px 5px;
+    color: #000;
+}
+
+
+
+/*********RadSearchBox*/
+
+/*.RadSearchBox_Default .rsbInner {
+    font-size: 14px !important;
+    padding: 2px;
+}
+
+.RadSearchBox .rsbInput {
+    font-size: 14px !important;
+    height: 60px !important;
+}*/
+
+/*.RadSearchBox_Default {
+    background: #fff !important;
+    border: 0px solid #d0d0ce;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    width: auto;
+    margin-bottom: 10px !important;
+    font-size: 14px !important;
+}*/
+
+.RadSearchBox .rsbEmptyMessage {
+    font-size: 12px !important;
+    font-style: italic;
+}
+
+
+html .RadSearchBox .rsbInner {
+    border-radius: 4px;
+    border-color: #d0d0ce;
+    background-color: #fff;
+    padding:9px;
+    text-align:center;
+}
+
+    html.RadSearchBox.rsbInput {
+        height: 100%;
+    }
+
+html .RadSearchBox .rsbButtonSearch {
+    height: 34px;
+    width: 30px;
+    padding: 0px;
+    background-color: #00A3E0;
+    margin:-3px -3px -3px 0px;
+}
+
+.rsbPopup {
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+    .rsbPopup .rsbList {
+        font-size: 14px !important;
+        cursor: pointer;
+    }
+
+    .rsbPopup .rsbListItemHovered {
+        background-color: #8ebc00;
+    }
+
+
+    /***********RadWindow*/
+.RadWindow .rwIcon
+         {
+            background-image:none !important;
+         }
+        .RadWindow .rwAlertDialog
+        {
+            background-image:none !important;
+        }
+
+        .RadWindow .rwConfirmDialog
+        {
+            background-image:none !important;
+        }
+
+        .RadWindow .rwDialogContent
+        {
+            padding: 0px !important;
+        }
+
+        .RadWindow div.rwExternalContent
+        {
+            padding: 0px !important;
+        }
+        
+        .RadWindow .rwTitleWrapper .rwTitle
+        {
+            color:red !important;
+            padding: 0px !important;
+            /*width: 60px !important;*/
+            font-size: 1.2em;
+        }
+
+        .RadWindow .rwAlertDialog .rwDialogButtons input
+        {
+            display: none !important;
+        }
+        .RadWindow .rwConfirmDialog .rwDialogButtons
+        {
+            text-align: center !important;
+        }
